@@ -1,6 +1,7 @@
 package net.euruseve.fordarling.block;
 
 import net.euruseve.fordarling.ForDarlingMod;
+import net.euruseve.fordarling.item.ModCreativeModeTab;
 import net.euruseve.fordarling.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,20 +23,20 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DARLING_BLOCK = registerBlock("darling_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
     public static final RegistryObject<Block> RAW_DARLING_BLOCK = registerBlock("raw_darling_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(4f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
 
     public static final RegistryObject<Block> DARLING_ORE = registerBlock("darling_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(4f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_DARLING_ORE = registerBlock("deepslate_darling_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(4f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
 
 

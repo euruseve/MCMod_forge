@@ -6,6 +6,9 @@
 
   "block.fordarling.darling_block": "Милый Блок",
   "block.fordarling.raw_darling_block": "Блок Необработаной Милой Руды",
-  "block.fordarling.darling_block": "Милая Руда",
-  "block.fordarling.deepslate_darling_block": "Глубокородная Милая Руда"
+  "block.fordarling.darling_ore": "Милая Руда",
+  "block.fordarling.deepslate_darling_ore": "Глубокородная Милая Руда",
+
+
+  "itemGroup.darlingtab" : "Милый Mod"
 }

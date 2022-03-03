@@ -14,13 +14,13 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> DARLING_INGOT = ITEMS.register("darling_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
     public static final RegistryObject<Item> DARLING_NUGGET = ITEMS.register("darling_nugget",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
     public static final RegistryObject<Item> RAW_DARLING = ITEMS.register("raw_darling",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
 
 
