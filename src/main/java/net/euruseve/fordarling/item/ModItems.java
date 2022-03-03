@@ -19,6 +19,9 @@ public class ModItems {
     public static final RegistryObject<Item> DARLING_NUGGET = ITEMS.register("darling_nugget",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> RAW_DARLING = ITEMS.register("raw_darling",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
 
 
     public static void register(IEventBus eventBus) {

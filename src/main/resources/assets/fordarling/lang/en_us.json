@@ -1,4 +1,11 @@
 {
   "item.fordarling.darling_ingot": "Darling Ingot",
-  "item.fordarling.darling_nugget": "Darling Nugget"
+  "item.fordarling.darling_nugget": "Darling Nugget",
+  "item.fordarling.raw_darling": "Raw Darling",
+
+
+  "block.fordarling.darling_block": "Darling Block",
+  "block.fordarling.raw_darling_block": "Raw Darling Block",
+  "block.fordarling.darling_ore": "Darling Ore",
+  "block.fordarling.deepslate_darling_block": "Deepslate Darling Ore"
 }
