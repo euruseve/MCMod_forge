@@ -1,14 +1,17 @@
 {
   "item.fordarling.darling_ingot": "Милый Слиток",
   "item.fordarling.darling_nugget": "Милый Самородок",
-  "item.fordarling.raw_darling": "Необработаный Милый",
+  "item.fordarling.raw_darling": "Необработаная Милая Руда",
   "item.fordarling.dowsing_rod": "Ручка Для Локации",
+  "item.fordarling.darling_turnip": "Милая Репа",
 
 
   "block.fordarling.darling_block": "Милый Блок",
   "block.fordarling.raw_darling_block": "Блок Необработаной Милой Руды",
   "block.fordarling.darling_ore": "Милая Руда",
   "block.fordarling.deepslate_darling_ore": "Глубокородная Милая Руда",
+  "block.fordarling.darling_stairs": "Милый Полублок",
+  "block.fordarling.darling_slab": "Милые Ступеньки",
 
 
   "itemGroup.darlingtab" : "Милый Mod",

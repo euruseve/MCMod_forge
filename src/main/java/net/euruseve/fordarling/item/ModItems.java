@@ -23,8 +23,11 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_DARLING = ITEMS.register("raw_darling",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
-        public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
             () -> new DrowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+
+    public static final RegistryObject<Item> DARLING_TURNIP = ITEMS.register("darling_turnip",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB).food(ModFoods.TURNIP)));
 
 
 

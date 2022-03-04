@@ -7,6 +7,8 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,16 +28,26 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
     public static final RegistryObject<Block> RAW_DARLING_BLOCK = registerBlock("raw_darling_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
 
     public static final RegistryObject<Block> DARLING_ORE = registerBlock("darling_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_DARLING_ORE = registerBlock("deepslate_darling_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
+
+
+    public static final RegistryObject<Block> DARLING_STAIRS = registerBlock("darling_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARLING_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
+
+    public static final RegistryObject<Block> DARLING_SLAB = registerBlock("darling_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
 

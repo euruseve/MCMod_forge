@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fordarling:block/darling_slab"
+    },
+    "type=double": {
+      "model": "fordarling:block/darling_block"
+    },
+    "type=top": {
+      "model": "fordarling:block/darling_slab_top"
+    }
+  }
+}
