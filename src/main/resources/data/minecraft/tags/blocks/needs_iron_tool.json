@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fordarling:darling_block",
+    "fordarling:raw_darling_block",
+    "fordarling:darling_ore",
+    "fordarling:deepslate_darling_ore"
+  ]
+}
