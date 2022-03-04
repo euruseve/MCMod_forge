@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fordarling:raw_darling"
+  },
+  "result": "fordarling:darling_ingot",
+  "experience": 0.8,
+  "cookingtime": 160
+
+}

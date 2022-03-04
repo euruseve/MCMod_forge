@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fordarling:raw_darling_block"
+    }
+  ],
+  "result": {
+    "item": "fordarling:raw_darling",
+    "count": 9
+  }
+}
