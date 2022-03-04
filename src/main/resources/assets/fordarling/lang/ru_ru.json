@@ -2,6 +2,7 @@
   "item.fordarling.darling_ingot": "Милый Слиток",
   "item.fordarling.darling_nugget": "Милый Самородок",
   "item.fordarling.raw_darling": "Необработаный Милый",
+  "item.fordarling.dowsing_rod": "Ручка Для Локации",
 
 
   "block.fordarling.darling_block": "Милый Блок",
@@ -10,5 +11,7 @@
   "block.fordarling.deepslate_darling_ore": "Глубокородная Милая Руда",
 
 
-  "itemGroup.darlingtab" : "Милый Mod"
+  "itemGroup.darlingtab" : "Милый Mod",
+
+  "item.fordarling.dowsing_rod.no_valuables": "Нет Значений!"
 }

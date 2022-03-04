@@ -1,6 +1,7 @@
 package net.euruseve.fordarling.item;
 
 import net.euruseve.fordarling.ForDarlingMod;
+import net.euruseve.fordarling.item.custom.DrowsingRodItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_DARLING = ITEMS.register("raw_darling",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+
+        public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DrowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
 
 
