@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "fordarling:block/darling_blossom_door_top",
+    "bottom": "fordarling:block/darling_blossom_door_bottom"
+  }
+}

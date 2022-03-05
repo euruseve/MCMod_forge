@@ -14,6 +14,11 @@
   "block.fordarling.darling_slab": "Darling Slab",
   "block.fordarling.darling_button": "Darling Button",
   "block.fordarling.darling_pressure_plate": "Darling Pressure Plate",
+  "block.fordarling.darling_fence": "Darling Fence",
+  "block.fordarling.darling_fence_gate": "Darling Fence Gate",
+  "block.fordarling.darling_wall": "Darling Wall",
+  "block.fordarling.darling_blossom_door": "Darling Door",
+  "block.fordarling.darling_blossom_trapdoor": "Darling Trapdoor",
 
 
   "itemGroup.darlingtab" : "Darling Mod",

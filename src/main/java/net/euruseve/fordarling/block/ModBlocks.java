@@ -56,6 +56,23 @@ public class ModBlocks {
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.METAL)
                     .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
+    public static final RegistryObject<Block> DARLING_FENCE = registerBlock("darling_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
+    public static final RegistryObject<Block> DARLING_FENCE_GATE = registerBlock("darling_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
+    public static final RegistryObject<Block> DARLING_WALL = registerBlock("darling_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
+
+    public static final RegistryObject<Block> DARLING_BLOSSOM_DOOR = registerBlock("darling_blossom_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.DARLING_TAB);
+
+    public static final RegistryObject<Block> DARLING_BLOSSOM_TRAPDOOR = registerBlock("darling_blossom_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.DARLING_TAB);
 
 
 
