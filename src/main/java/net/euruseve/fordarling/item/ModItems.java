@@ -2,8 +2,7 @@ package net.euruseve.fordarling.item;
 
 import net.euruseve.fordarling.ForDarlingMod;
 import net.euruseve.fordarling.item.custom.DrowsingRodItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,6 +28,21 @@ public class ModItems {
     public static final RegistryObject<Item> DARLING_TURNIP = ITEMS.register("darling_turnip",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB).food(ModFoods.TURNIP)));
 
+    public static final RegistryObject<Item> DARLING_SWORD = ITEMS.register("darling_sword",
+            () -> new SwordItem(ModTiers.COBALT, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+    public static final RegistryObject<Item> DARLING_PICKAXE = ITEMS.register("darling_pickaxe",
+            () -> new PickaxeItem(ModTiers.COBALT, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+    public static final RegistryObject<Item> DARLING_SHOVEL = ITEMS.register("darling_shovel",
+            () -> new ShovelItem(ModTiers.COBALT, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+    public static final RegistryObject<Item> DARLING_AXE = ITEMS.register("darling_axe",
+            () -> new AxeItem(ModTiers.COBALT, 4, 0f,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+    public static final RegistryObject<Item> DARLING_HOE = ITEMS.register("darling_hoe",
+            () -> new HoeItem(ModTiers.COBALT, 0, 0f,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
 
     public static void register(IEventBus eventBus) {
