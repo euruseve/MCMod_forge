@@ -6,9 +6,7 @@ import net.euruseve.fordarling.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -50,6 +48,13 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
+    public static final RegistryObject<Block> DARLING_BUTTON = registerBlock("darling_button",
+            () -> new StoneButtonBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops().noCollission()), ModCreativeModeTab.DARLING_TAB);
+
+    public static final RegistryObject<Block> DARLING_PRESSURE_PLATE = registerBlock("darling_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.DARLING_TAB);
 
 
 

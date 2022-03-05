@@ -12,7 +12,8 @@
   "block.fordarling.deepslate_darling_ore": "Deepslate Darling Ore",
   "block.fordarling.darling_stairs": "Darling Stairs",
   "block.fordarling.darling_slab": "Darling Slab",
-
+  "block.fordarling.darling_button": "Darling Button",
+  "block.fordarling.darling_pressure_plate": "Darling Pressure Plate",
 
 
   "itemGroup.darlingtab" : "Darling Mod",

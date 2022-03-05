@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "fordarling:block/darling_pressure_plate" },
+    "powered=true": { "model": "fordarling:block/darling_pressure_plate_down" }
+  }
+}
