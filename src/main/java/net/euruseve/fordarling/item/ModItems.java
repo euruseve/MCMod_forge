@@ -2,6 +2,8 @@ package net.euruseve.fordarling.item;
 
 import net.euruseve.fordarling.ForDarlingMod;
 import net.euruseve.fordarling.item.custom.DrowsingRodItem;
+import net.euruseve.fordarling.item.custom.PaxelItem;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -44,6 +46,25 @@ public class ModItems {
             () -> new HoeItem(ModTiers.COBALT, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
+    public static final RegistryObject<Item> DARLING_PAXEL = ITEMS.register("darling_paxel",
+            () -> new PaxelItem(ModTiers.COBALT, 0, 0f,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+
+    public static final RegistryObject<Item> DARLING_HELMET = ITEMS.register("darling_helmet",
+            () -> new ArmorItem(ModArmorMaterials.DARLING, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+
+    public static final RegistryObject<Item> DARLING_CHESTPLATE = ITEMS.register("darling_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.DARLING, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+
+    public static final RegistryObject<Item> DARLING_LEGGINGS = ITEMS.register("darling_leggings",
+            () -> new ArmorItem(ModArmorMaterials.DARLING, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
+
+    public static final RegistryObject<Item> DARLING_BOOTS = ITEMS.register("darling_boots",
+            () -> new ArmorItem(ModArmorMaterials.DARLING, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.DARLING_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
